@@ -1,0 +1,69 @@
+html{
+  height: 90%;
+  margin: 1%;
+  font-family:sans-serif;
+  background: url(../Img/c.jpg);
+  background-color: rgba(0, 0, 0, 0.1);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+header{
+  display: inline-block;
+}
+.titulo{
+  display: block;
+  color: rgb(240,240,240);
+  padding: 10px 0px 0px 100px;
+  background-color:rgba(0,0,0,0.5);
+  font-size: 30px;
+}
+.centrar{
+  text-align: center;
+}
+.contenedor{
+  margin-top: 15%;
+    display: inline-block;
+    text-align: center;
+}
+.btnPed{
+  background: url(../ImagenesFondo/ped/1.jpg);
+  filter: grayscale(100%);
+}
+.btnDucado{
+  background: url(../ImagenesFondo/ducado/d.jpg);
+  filter: grayscale(100%);
+}
+.btnPed:hover{
+  filter: grayscale(0%);
+}
+.btnDucado:hover{
+  filter: grayscale(0%);
+}
+.btnDucado,.btnPed:visited{
+  color: white;
+}
+.boton{
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  text-decoration: none;
+  background-color: rgba(255,255,255,0.1);
+  margin: 25px;
+  padding: 200px;
+  font-size: 25px;
+  border-radius: 15px;
+  margin-top: 10%;
+  text-decoration: none;
+  transition:all .2s ease-in-out;
+  outline: 0px;
+}
+.boton:hover{
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  text-decoration: none;
+}
+a{
+  transition:.5s ease-in-out;
+}
