@@ -2,8 +2,7 @@ html{
   height: 90%;
   margin: 1%;
   font-family:sans-serif;
-  background: url(../Img/c.jpg);
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(20, 100, 165);
   background-position: center;
   background-attachment: contain;
   background-size: cover;
@@ -15,7 +14,7 @@ header{
   display: block;
   color: rgb(240,240,240);
   padding: 10px 0px 0px 100px;
-  background-color:rgba(0,0,0,0.5);
+  /*background-color:rgba(0,0,0,0.5);*/
   font-size: 30px;
 }
 .centrar{
@@ -27,11 +26,12 @@ header{
     text-align: center;
 }
 .btnPed{
-  background: url(../ImagenesFondo/ped/1.jpg);
+  background: url(../Img/showclients.jpg);
   filter: grayscale(100%);
 }
 .btnDucado{
-  background: url(../ImagenesFondo/ducado/d.jpg);
+  color: rgb(255,255,255);
+  background: url(../Img/insertclients.jpg);
   filter: grayscale(100%);
 }
 .btnPed:hover{
@@ -66,4 +66,5 @@ header{
 }
 a{
   transition:.5s ease-in-out;
+
 }
